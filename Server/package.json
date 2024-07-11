@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is my server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "graphql": "^16.9.0",
+    "graphql-tools": "^9.0.1",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.4.4",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.4",
+    "superagent": "^9.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0"
+  }
+}
